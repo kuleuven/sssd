@@ -13,8 +13,6 @@
       "version_requirement": ">= 4.2.0 < 10.0.0"
     }
   ],
-  "data_provider": "hiera",
-  "description": "Install and configure the System Security Services Daemon",
   "tags": [
     "sssd"
   ],
