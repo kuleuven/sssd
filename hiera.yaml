@@ -6,13 +6,12 @@ defaults:
   data_hash: 'yaml_data'
 
 hierarchy:
-  - name: "Operating System Major Version"
-    backend: yaml
-    path: "%{facts.os.name}-%{facts.os.release.major}"
+  - name: 'Operating System Major Version'
+    path: '%{facts.os.name}-%{facts.os.release.major}.yaml'
 
-  - name: "Operating System Family"
-    backend: yaml
-    path: "%{facts.os.family}"
+  - name: 'Operating System Family'
+    path: '%{facts.os.family}.yaml'
 
-  - name: "common"
-    backend: yaml
+  - name: 'common'
+    path: 'common.yaml'
+

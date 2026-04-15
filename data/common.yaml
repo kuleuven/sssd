@@ -17,3 +17,5 @@ sssd::config:
       cache_credentials: true
 sssd::mkhomedir: true
 sssd::clear_cache: false
+sssd::required_packages: {}
+sssd::pam_mkhomedir_file_path: ~
