@@ -6,6 +6,6 @@ class sssd::install {
     ensure => $sssd::package_ensure,
   }
 
-  ensure_packages($sssd::required_packages)
+  stdlib::ensure_packages($sssd::required_packages)
 
 }
