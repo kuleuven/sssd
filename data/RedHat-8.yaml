@@ -1,0 +1,2 @@
+---
+sssd::pam_mkhomedir_method: 'authconfig'
