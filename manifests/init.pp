@@ -16,7 +16,7 @@ class sssd (
   Stdlib::Absolutepath $config_file,
   Hash $config,
   Boolean $mkhomedir,
-  Optional[Enum['pam-auth-update', 'authconfig']] $pam_mkhomedir_method,
+  Optional[Enum['pam-auth-update', 'authconfig']] $pam_mkhomedir_method = undef,
   Variant[Stdlib::Absolutepath, Undef] $pam_mkhomedir_file_path,
   Stdlib::Absolutepath $cache_path,
   Boolean $clear_cache,
